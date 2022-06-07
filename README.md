@@ -3,13 +3,13 @@
 No projeto *All For One* foi colocado os conceitos básicos de SQL em prática. Nele, foi utilizado o banco de dados `Northwind`.
 
 ---
-## O Que foi desenvolvido
+
+**O Que foi desenvolvido**
 
 Foi desenvolvido uma série de desafios com diferentes níveis de complexidade, resolvidos cada um em um arquivo próprio.
 
 Cada arquivo contém apenas o código SQL do desafio.
 
----
 
 ## Desafios
 
@@ -23,7 +23,7 @@ Cada arquivo contém apenas o código SQL do desafio.
 7. Mostre apenas os ids dos 5 últimos registros da tabela `products` (a ordernação deve ser baseada na coluna `id`).
 8. Faça uma consulta que retorne três colunas, respectivamente, com os nomes 'A', 'Trybe' e 'eh', e com valores referentes a soma de '5 + 6', a string 'de', a soma de '2 + 8'.
 
-## Desafios sobre filtragem de dados
+### Desafios sobre filtragem de dados
 9. Mostre todos os valores de `notes` da tabela `purchase_orders` que não são nulos.
 10. Mostre todos os dados da tabela `purchase_orders` em ordem decrescente, ordenados por `created_by` em que o `created_by` é maior ou igual a 3.
 11. Exiba os dados da coluna `notes` da tabela `purchase_orders` em que seu valor de `Purchase generated based on Order` é maior ou igual a 30 e menor ou igual a 39.
@@ -36,7 +36,7 @@ Cada arquivo contém apenas o código SQL do desafio.
 18. Mostre todos os registros de `purchase_orders` que tem o `supplier_id` igual a 3 e `status_id` igual a 2.
 19. Mostre a quantidade de pedidos que foram feitos na tabela `orders` pelo `employee_id` igual a 5 ou 6, e que foram enviados através do método(coluna) `shipper_id` igual a 2.
 
-## Desafios de manipulação de tabelas
+### Desafios de manipulação de tabelas
 20. Adicione à tabela `order_details` um registro com `order_id`: 69, `product_id`: 80, `quantity`: 15.0000, `unit_price`: 15.0000, `discount`: 0, `status_id`: 2, `date_allocated`: NULL, `purchase_order_id`: NULL e `inventory_id`: 129.  
 21. Adicione com um único `INSERT`, duas linhas à tabela `order_details` com os mesmos dados do requisito 20.
 22. Atualize os dados de `discount` do `order_details` para 15. (Não é necessário utilizar o SAFE UPDATE em sua query).
